@@ -20,7 +20,7 @@ export const services = [
     ],
   },
   {
-    title: "MERN Stack Development",
+    title: "Back-End",
     iconSrc: "https://cdn.worldvectorlogo.com/logos/mern.svg",
     tags: [
       "MongoDB",
@@ -35,9 +35,9 @@ export const services = [
     ],
   },
   {
-    title: "JAM Stack Development",
+    title: "Wechat Mini App",
     iconSrc:
-      "https://d33wubrfki0l68.cloudfront.net/1d6248982d56f5b390b078f8ad053c3a6e61bfb2/ef690/img/logo/svg/jamstack_icon_original.svg",
+      "https://www.logo.wine/a/logo/WeChat/WeChat-Icon-Logo.wine.svg",
     tags: [
       "NextJs",
       "GatsbyJs",
@@ -80,21 +80,7 @@ export const services = [
       "NFT-minting",
     ],
   },
-  {
-    title: "dApp Development (Blockchain)",
-    iconSrc:
-      "https://img.icons8.com/external-vitaliy-gorbachev-blue-vitaly-gorbachev/60/000000/external-blockchain-cryptocurrency-vitaliy-gorbachev-blue-vitaly-gorbachev-1.png",
-    tags: [
-      "ReactJs",
-      "Solidity",
-      "Hardhat",
-      "Waffle",
-      "Ethers (library)",
-      "Metamask Wallet",
-      "Alchemy (Deployment)",
-      "web3.js",
-    ],
-  },
+  
   {
     title: "Ecommerce Development",
     iconSrc: "https://img.icons8.com/office/344/bank-cards.png",
@@ -104,55 +90,55 @@ export const services = [
 
 export const portfolioList = [
   {
-    id: "featured",
-    title: "Featured",
+    id: "wechatmini-app",
+    title: "Wechat",
   },
   {
-    id: "frontend",
-    title: "Front-End",
+    id: "mobile-app",
+    title: "Mobile App",
   },
   {
-    id: "fullstack",
-    title: "Full-Stack",
+    id: "Web3.0",
+    title: "Web3.0",
   },
   {
     id: "web3",
-    title: "Web 3.0",
+    title: "E-commerce",
   },
 ];
 
 export const featuredPortfolio = [
   {
     id: 1,
-    title: "TransferKrypt",
-    img: "https://i.imgur.com/K4GroFa.png",
+    title: "Wechat Mini App",
+    img: "https://blog.hubspot.com/hs-fs/hubfs/Google%20Drive%20Integration/What%20are%20Mini%20Apps%20%26%20Why%20Marketers%20Should%20Care-1.png?width=600&name=What%20are%20Mini%20Apps%20%26%20Why%20Marketers%20Should%20Care-1.png",
     repositoryUrl: "https://github.com/developer-junaid/Transfer-Krypt",
     liveUrl: "https://transferkrypt.netlify.app/",
-    tagline: "Transfer Crypto / Blockchain",
+    tagline: "Build inside of Wechat",
   },
   {
     id: 2,
-    title: "Memories Social Media App",
-    img: "https://i.imgur.com/1tPbhdS.png",
+    title: "React",
+    img: "https://reactjsexample.com/content/images/2020/06/54mXN.jpg",
     repositoryUrl: "https://github.com/developer-junaid/MERN-Memories-App",
     liveUrl: "https://memories-manager.netlify.app/",
-    tagline: "Social Media / Management",
+    tagline: "Front End / Management",
   },
   {
     id: 3,
     title: "Ecommerce Store",
-    img: "https://i.imgur.com/HBKjrC6.png",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6S6SiqLikmS5E_tJyjaps4R3AxlQ7vogWrQ&usqp=CAU",
     repositoryUrl: "https://github.com/developer-junaid/Buy-It",
     liveUrl: "https://buyit-shoes.netlify.app/",
-    tagline: "Ecommerce / Stripe Payments",
+    tagline: "Ecommerce / Multiple payment methods",
   },
   {
     id: 4,
-    title: "React Web3 App",
-    img: "https://i.imgur.com/OxClJvP.png",
+    title: "Mobile App",
+    img: "https://img.youtube.com/vi/naT6NV_S1eo/0.jpg",
     repositoryUrl: "https://github.com/developer-junaid/React-NFT-App",
     liveUrl: "https://react-nft-project.netlify.app/",
-    tagline: "Web3 / NFT Listing",
+    tagline: "Full stack project / Deployed on Amazon Cloud ",
   },
 ];
 
